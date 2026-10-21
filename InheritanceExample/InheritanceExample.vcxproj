@@ -139,10 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Berry.cpp" />
+    <ClCompile Include="Citrus.cpp" />
     <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="InheritanceExample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Berry.h" />
+    <ClInclude Include="Citrus.h" />
     <ClInclude Include="Fruit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

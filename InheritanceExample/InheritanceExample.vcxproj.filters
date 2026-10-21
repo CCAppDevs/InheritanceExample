@@ -21,9 +21,21 @@
     <ClCompile Include="Fruit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Berry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Citrus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fruit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Berry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Citrus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

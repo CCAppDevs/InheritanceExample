@@ -5,14 +5,16 @@ using namespace std;
 
 class Fruit
 {
-private:
+protected:
+
+	virtual void GetTasteProfile() = 0;
 
 	string Name;
 
-	//virtual void GetTasteProfile() = 0;
-
 public:
-	void PrintDescription();
 	Fruit(string name); // constructor
+
+	void PrintDescription();
+	void Eat();
 };
 
