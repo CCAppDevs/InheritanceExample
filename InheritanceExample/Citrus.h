@@ -6,6 +6,8 @@ protected:
 	void GetTasteProfile();
 
 public:
-	Citrus(string name);
+	Citrus(string name, bool extraSour);
+
+	bool isExtraSour;
 };
 

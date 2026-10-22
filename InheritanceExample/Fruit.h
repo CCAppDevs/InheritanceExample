@@ -7,7 +7,7 @@ class Fruit
 {
 protected:
 
-	virtual void GetTasteProfile() = 0;
+	virtual void GetTasteProfile();
 
 	string Name;
 
